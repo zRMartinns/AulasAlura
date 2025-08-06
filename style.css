@@ -17,7 +17,7 @@ body {
 }
 
 .apresentacao {
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;    
     align-items: center;
     justify-content: space-between;
@@ -26,6 +26,9 @@ body {
 .apresentacao_conteudo {
     width: 615px;
     height: 115;
+    display: flex;
+    flex-direction: column;
+    gap: 40PX;
 }
 
 .conteudo_titulo {
@@ -36,4 +39,23 @@ body {
 .conteudo_descricao {
     font-size: 36;
     font-family: "Montserrat", sans-serif;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Links_Link {
+    background-color: #D9B75A;
+    width: 280px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 16px;
+    size: 24px;
+    color: #1F1F1F;
+    text-decoration: none;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+
 }
